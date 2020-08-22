@@ -9,7 +9,8 @@ class personController extends Controller
 {
     public function index(){
     	$person_list = Person::all();
-    	dd($person_list->toArray());
-    	return "person";
+    	//dd($person_list->toArray());
+
+    	return view('personlist', compact('person_list'));
     }
 }
