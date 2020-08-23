@@ -20,7 +20,7 @@
 			<tbody>
 				@foreach($person_list as $person)
 				<tr>
-					<td>{{$person->id}}</td>
+					<td>{{$person->userId}}</td>
 					<td>{{$person->name}}</td>
 					<td>{{$person->email}}</td>
 					<td>{{$person->address}}</td>
